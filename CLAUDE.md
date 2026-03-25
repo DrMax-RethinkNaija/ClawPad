@@ -184,12 +184,12 @@ Claude should be ready to assist with any of these domains.
 
 ## Hardware Configuration
 
-- **Machine**: ThinkPad X200
-- **OS**: Debian 13 (Trixie)
+- **Machine**: Dell Precision 7550
+- **OS**: Ubuntu 24.04.4 LTS (kernel 6.17.0)
 - **WM**: i3wm
-- **CPU**: Intel Core 2 Duo P8400 @ 2.26GHz
-- **Storage**: ~260GB free on /
-- **I2C bus**: Bus 2 (`i915 gmbus vga`)
+- **CPU**: Intel Core i9-10885H @ 2.40GHz (8 cores / 16 threads)
+- **RAM**: 62GB
+- **Storage**: ~853GB free on / (915GB NVMe)
 
 ## Installed Tools Reference
 
