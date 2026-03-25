@@ -36,12 +36,12 @@ def is_recording():
 
 def start_recording():
     """Start recording audio in the background."""
-    # Start parecord in background
+    # Start pw-record in background (PipeWire native, WAV inferred from .wav extension)
     proc = subprocess.Popen([
-        "parecord",
+        "pw-record",
         "--rate", str(AUDIO_RATE),
         "--channels", "1",
-        "--file-format=wav",
+        "--format", "s16",
         TEMP_AUDIO
     ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
