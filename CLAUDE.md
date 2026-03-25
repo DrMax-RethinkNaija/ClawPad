@@ -151,10 +151,11 @@ i3-msg fullscreen toggle
 
 ### Environment Details
 
-- **User**: tester
-- **Home**: /home/tester
+- **User**: maxclaude
+- **Home**: /home/maxclaude
 - **Display**: Should be set (`:0` or similar) for GUI apps
 - **Access**: Dr. Max connects via Tailscale to interact with running tmux/Claude sessions
+- **GitHub**: Claude's contributions go to [DrMax-RethinkNaija](https://github.com/DrMax-RethinkNaija) (`dr.max.chib@gmail.com`)
 
 ### Session Continuity
 
